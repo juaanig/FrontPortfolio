@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap'); 
+
+.bgd-black{
+    background-color: #000000;
+}
+
+html{
+    overflow: hidden;
+    overflow-x: hidden ;
+}
+
+.leyend-ft{
+    background: #fff;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    padding: 10px;
+    height: 25vh;
+    border-radius: 10px;
+}
+
+/* .firsttemplete{
+    height: 95vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:linear-gradient(to bottom,#000 50%,#fff 50%);
+}
+
+footer{
+    background-color: #0a12ff;
+    position: static;
+    margin-bottom: 0px;
+    padding: 5vh 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer>div{
+    background:#fff;
+    width: 31%;
+} */
+/* ================ TITLE ================ */
+.bg-1{
+    display: inline;
+    text-align: end;
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    font-style: italic;
+}
+  
+.t-stroke {
+    color: transparent;
+    -moz-text-stroke: 7px #000000; 
+    -webkit-text-stroke: 10px #79ffa0;
+ 
+}
+  
+.t-shadow {
+    text-shadow: 15px 10px #7900ff;
+}
+/* ================= ABOUT ME ================= */
+.messages-stg2{
+    margin-left: 15vw;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 33px ;
+}
+
+.projects{
+    color: #000000;
+    text-shadow: #79ffa0 1px 1px,;
+}
+
+.p-stroke {
+    color: transparent;
+    -moz-text-stroke: 7px #000000; 
+    -webkit-text-stroke: 1px #79ffa0;
+ 
+}
+/* =========================================== */
+
+/* ================ PROJECTS ================= */
+.button-pjt{
+    border-radius: 20%;
+}
+
+/* queries to h1*/
+/* If the screen size is 370px wide or more, set the font-size to 40vh */
+@media (min-width: 370px) {
+    .responsive-font {
+      font-size: 35vh;
+      text-align: center;
+    }
+
+    .leyend-ft{
+        text-align: center;
+        background: #fff;
+        font-size: 17px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        padding: 10px;
+        height: 25vh;
+        border-radius: 10px;
+    }
+    
+}
+
+@media (min-width: 576px) {
+    .responsive-font {
+      font-size: 60vh;
+      text-align: center;
+    }
+
+    .messages-stg2{
+        width: 50%;
+        height: 55vh;
+        color: #ffffff;
+        font-family: 'Oswald', sans-serif;
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 33px ;
+        margin-left: 40vh; 
+        margin-top: 1vh;
+    }
+}
+
+/* If the screen size is 370px wide or more, set the font-size to 40vh */
+@media (min-width: 768px) {
+    .responsive-font {
+      font-size: 60vh;
+      text-align: center;
+    }
+}
